@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   $.ajax({
-  //method: "GET",
+  method: "GET",
   url: "https://newsapi.org/v2/sources?",
   data: { category: "Business", country:"us", language: "en", apiKey: APIKEY },
   success: function(data){
