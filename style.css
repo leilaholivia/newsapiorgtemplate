@@ -1,7 +1,37 @@
 h1{
     font-family: 'News Cycle', sans-serif;
+    font-weight:bold;
+    text-align: center;
 }
 
 li{
     font-family: 'News Cycle', sans-serif;
+}
+a{
+  background-color: black;
+}
+.card{
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+.container{
+  padding: 2px 16px;
+}
+
+#divCard{
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 10px;
+}
+#divCard h4 {
+ max-width: 50%;
+ font-weight:bold;
+}
+#headerImage{
+  background-color:black;color:white;
+  max-width:100vw;
+  max-height:300px;
+  display:inline-block;
+  border-radius:1px;
 }
